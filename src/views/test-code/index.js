@@ -100,13 +100,13 @@ const TopicCard = ({ data, type, rawData }) => {
                 </div>
 
                 <Row className={'info-container'}>
-                    <Col lg={ type === 'list' ? 17 : 24} className={'info-col'}>
+                    <Col md={type === 'list' ? 10 : 24} lg={ type === 'list' ? 17 : 24} className={'info-col'}>
                         <div className={'info-text'}>
                             <h2>{data.name}</h2>
                             <p>{data.description}</p>
                         </div>
                     </Col>
-                    <Col lg={ type === 'list' ? 7 : 24} className={'vote-container'}>
+                    <Col md={ type === 'list' ? 9 : 24} lg={ type === 'list' ? 7 : 24} className={'vote-container'}>
                         <p className={'vote-time'}>{ data.me && DateFormatter(data.lastUpdated) || ''}</p>
                         <div className={'actions'} >
                             { !data.me && <img onClick={() => setVote('positive')} src={thumbs_up} style={{background:'#3cbbb4'}} className={`btn-vote ${vote == 'positive' ? 'active' : ''}`}/> }

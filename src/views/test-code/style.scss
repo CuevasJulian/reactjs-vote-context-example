@@ -72,6 +72,13 @@
                     text-align: left;
                     max-width: 500px;
                     width: 100%;
+
+                    p{
+                        max-height: 45px;
+                        overflow: hidden;
+                        white-space: normal;
+                        text-overflow: ellipsis;
+                    }
                 }
             }
     
@@ -231,6 +238,14 @@
             }
         }    
 
+    }
+}
+
+@media (max-width:800px) {
+    .info-container{
+        .info-col{
+            padding: 0px 0px 0px 0px;
+        }
     }
 }
 
