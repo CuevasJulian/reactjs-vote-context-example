@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Zemoga Candidate Test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hello! 
+
+Good vibes! :D
+
+
+This project was created using React.js and Antd libraries to make easer responsive site with his resolutions system
+
+## Important thing
+
+Dont forget use `npm install` before `npm start` to install dependencies. 
+
 
 ## Available Scripts
 
