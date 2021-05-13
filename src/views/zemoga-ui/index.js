@@ -20,7 +20,6 @@ const ZemogaUI = () => {
 
     
     const resize = () => {
-        // console.log(window.innerWidth,window.screen.width,document.body.clientWidth);
         if( (window.innerWidth < 500) != isMobil){
             let is = window.innerWidth < 500;
             setMobil(is);
@@ -28,6 +27,8 @@ const ZemogaUI = () => {
         } 
     }
     
+    
+    window.addEventListener("resize",resize);
     return(
         <>
             <nav className="nav" role="navigation">

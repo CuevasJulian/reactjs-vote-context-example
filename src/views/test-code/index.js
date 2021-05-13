@@ -77,7 +77,7 @@ const TopicCard = ({ data, type, rawData }) => {
     }
 
     return(
-        <Col xs={24} lg={ type === 'list' ? 24 : 12 } xl={ type === 'list' ? 24 : 8 } className={['ruling-container', (type === 'grid' && 'ruling-container-grid') ]}>
+        <Col  xs={24} sm={12} lg={ type === 'list' ? 24 : 12 } xl={ type === 'list' ? 24 : 8 } className={['ruling-container', (type === 'grid' && 'ruling-container-grid') ]}>
             <div className={'card-container'}>
 
                 <div className={'myvote-container'}>
